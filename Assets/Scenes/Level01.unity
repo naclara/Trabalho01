@@ -594,6 +594,7 @@ GameObject:
   - component: {fileID: 1199734916}
   - component: {fileID: 1199734920}
   - component: {fileID: 1199734919}
+  - component: {fileID: 1199734921}
   m_Layer: 11
   m_Name: Girl
   m_TagString: Player
@@ -720,6 +721,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.7707417, y: 1.2315345}
   m_EdgeRadius: 0
+--- !u!114 &1199734921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1199734915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e608072eee3578e4abc70ce06132dd78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1344334299
 GameObject:
   m_ObjectHideFlags: 0
@@ -3820,18 +3832,6 @@ CompositeCollider2D:
         Y: -55000000
       - X: 25000000
         Y: -55000000
-    - - X: 260000000
-        Y: -15195312
-      - X: 259843744
-        Y: -15000000
-      - X: 210156256
-        Y: -15000000
-      - X: 210000000
-        Y: -15234375
-      - X: 210000000
-        Y: -25000000
-      - X: 260000000
-        Y: -25000000
     - - X: 465000000
         Y: -15000000
       - X: 440000000
@@ -3844,6 +3844,18 @@ CompositeCollider2D:
         Y: -35000000
       - X: 465000000
         Y: -35000000
+    - - X: 260000000
+        Y: -15195312
+      - X: 259843744
+        Y: -15000000
+      - X: 210156256
+        Y: -15000000
+      - X: 210000000
+        Y: -15234375
+      - X: 210000000
+        Y: -25000000
+      - X: 260000000
+        Y: -25000000
     - - X: 165000000
         Y: -20195312
       - X: 164843744
@@ -3900,18 +3912,18 @@ CompositeCollider2D:
       - {x: -4.5, y: -0.5234375}
       - {x: -4.5, y: -5.5}
       - {x: 2.5, y: -5.5}
-    - - {x: 26, y: -1.5195312}
-      - {x: 25.984375, y: -1.5}
-      - {x: 21.015625, y: -1.5}
-      - {x: 21, y: -1.5234375}
-      - {x: 21, y: -2.5}
-      - {x: 26, y: -2.5}
     - - {x: 46.5, y: -1.5}
       - {x: 44, y: -1.5}
       - {x: 44, y: -2}
       - {x: 42.5, y: -2}
       - {x: 42.5, y: -3.5}
       - {x: 46.5, y: -3.5}
+    - - {x: 26, y: -1.5195312}
+      - {x: 25.984375, y: -1.5}
+      - {x: 21.015625, y: -1.5}
+      - {x: 21, y: -1.5234375}
+      - {x: 21, y: -2.5}
+      - {x: 26, y: -2.5}
     - - {x: 16.5, y: -2.0195312}
       - {x: 16.484375, y: -2}
       - {x: 13.015625, y: -2}
