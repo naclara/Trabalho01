@@ -146,8 +146,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e608072eee3578e4abc70ce06132dd78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  horizontalSpeed: 5
-  jumpSpeed: 500
+  horizontalSpeed: 7
+  jumpSpeed: 800
   feet: {fileID: 4845004719052732}
   feetWidth: 0.5
   feetHeight: 0.1
