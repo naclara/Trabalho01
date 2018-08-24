@@ -12,6 +12,7 @@ public class MovingPlatformCtrl : MonoBehaviour {
 
 	void Start () {
 		nextPos = pos1.position;
+		StartCoroutine(Move());
 	}
 	
 	IEnumerator Move() {
